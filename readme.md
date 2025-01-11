@@ -1,8 +1,9 @@
-Projet de Fouille d'opinions dans les commentaires - README.txt
+### Projet de Fouille
 
 1. Auteur
 ---------
-[Votre Nom Complet]
+- LU Yuxuan
+- ESPINAL Miguelangel
 
 2. Description du Classifieur
 ----------------------------
@@ -23,8 +24,41 @@ Chaque classificateur est entraîné séparément pour prédire l'une des quatre
 
 3. Exactitude sur les données de validation
 -----------------------------------------
-Prix:      XX.XX%
-Cuisine:   XX.XX%
-Service:   XX.XX%
-Ambiance:  XX.XX%
-Moyenne:   XX.XX%
+- n=1
+- Validation accuracies:
+ - Prix: 86.54%
+ - Cuisine: 87.48%
+ - Service: 87.17%
+ - Ambiance: 82.00%
+- Average accuracy: 85.80%
+- n=2
+- Validation accuracies:
+ - Prix: 86.07%
+ - Cuisine: 87.01%
+ - Service: 87.48%
+ - Ambiance: 80.75%
+- Average accuracy: 85.33%
+- n=3
+- Validation accuracies:
+ - Prix: 86.23%
+ - Cuisine: 86.85%
+ - Service: 87.79%
+ - Ambiance: 81.22%
+- Average accuracy: 85.41%
+- n=4
+- Validation accuracies:
+ - Prix: 85.76%
+ - Cuisine: 87.64%
+ - Service: 87.01%
+ - Ambiance: 80.75%
+- Average accuracy: 85.25%
+- n=5
+- Validation accuracies:
+ - Prix: 86.23%
+ - Cuisine: 87.79%
+ - Service: 87.17%
+ - Ambiance: 81.22%
+- Average accuracy: 85.60%
+
+- ALL RUNS ACC: [84.95, 84.51, 83.87, 83.87, 84.06]
+- AVG MACRO ACC: 84.25
