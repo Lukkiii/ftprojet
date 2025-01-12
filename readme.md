@@ -21,7 +21,7 @@ L'architecture comprend quatre classificateurs indépendants, un pour chaque asp
 Chaque classificateur est entraîné séparément pour prédire l'une des quatre classes (Positive, Négative, Neutre, NE) pour son aspect respectif. Le modèle utilise une architecture de classification standard avec une couche de classification au-dessus des embeddings contextuels de CamemBERT.
 
 ## Exactitude sur les données de validation
-- **n=1**
+### n=1
 - **Validation accuracies**:
  - **Prix**: 86.54%
  - **Cuisine**: 87.48%
